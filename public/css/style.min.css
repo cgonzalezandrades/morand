@@ -1,0 +1,16 @@
+@import url(https://fonts.googleapis.com/css?family=Sansita+One);
+@import url(https://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps);
+@import url(https://fonts.googleapis.com/css?family=Lily+Script+One);
+@import url(https://fonts.googleapis.com/css?family=Ledger);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+body,html{height:100%;margin:0}
+footer{background-color:rgba(243,230,47,.9);height:200px}
+#footer-bar{padding-top:10px;padding-bottom:60px;background-color:#67a71f}
+.intro{margin-top:100px;margin-bottom:400px}
+.nav-text{font-family:Montserrat,sans-serif;font-size:1em}
+#title{color:#fff;margin-top:200px;margin-bottom:0}
+#title-first{color:#ff0;font-family:Lobster,cursive;font-size:5em}
+#title-second{font-size:4em;font-family:'Lily Script One',cursive}
+.top-banner{background-image:url(../images/nyStreets.jpeg);background-position:center;background-repeat:no-repeat;padding-bottom:19%;background-size:auto;z-index:0}
+.wrapper{min-height:100%;margin-bottom:-50px}

@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Sansita+One');
+@import url('https://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps');
+
+@import url('https://fonts.googleapis.com/css?family=Lily+Script+One');
+@import url('https://fonts.googleapis.com/css?family=Ledger');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+
+footer{
+  background-color: rgba(243, 230, 47, 0.9);
+  height: 200px;
+}
+
+#footer-bar{
+  padding-top: 10px;
+  padding-bottom: 60px;
+  background-color: rgb(103, 167, 31);
+}
+
+.intro{
+  margin-top: 100px;
+  margin-bottom: 400px;
+}
+
+.nav-text{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+}
+
+#title{
+  color:white;
+  margin-top: 200px;
+  margin-bottom: 0;
+}
+
+#title-first{
+  color:yellow;
+  font-family: 'Lobster', cursive;
+  //font-family: 'Montserrat', sans-serif;
+  font-size: 5em;
+}
+
+#title-second{
+  //color:yellow;
+  font-size: 4em;
+  font-family: 'Lily Script One', cursive;
+  //font-size: 5em;
+}
+
+.top-banner {
+  background-image: url("../images/nyStreets.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-bottom: 19%;
+  //background-size: 100%;
+  background-size: auto;
+  z-index: 0;
+}
+
+
+
+
+
+
+
+
+
+//Sticky Footer
+
+
+.wrapper {
+  min-height: 100%;
+
+  /* Equal to height of footer */
+  /* But also accounting for potential margin-bottom of last child */
+  margin-bottom: -50px;
+}
+.footer,
+.push {
+  //height: 50px;
+}
